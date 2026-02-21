@@ -10,7 +10,6 @@ namespace CodVeda_FullStack_Intern.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        // Inject the database context through the constructor
         public AccountController(ApplicationDbContext context)
         {
             _context = context;
@@ -43,7 +42,6 @@ namespace CodVeda_FullStack_Intern.Controllers
         [HttpPost]
         public IActionResult Login(string email, string password)
         {
-            // Search the database for the user
             var user = _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
 
             if (user != null)
@@ -62,4 +60,5 @@ namespace CodVeda_FullStack_Intern.Controllers
             return RedirectToAction("Index", "Home");
         }
     }
+
 }
