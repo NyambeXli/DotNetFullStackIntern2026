@@ -17,7 +17,6 @@ namespace CodVeda_FullStack_Intern.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // 1. Seed the hardcoded Admin
             modelBuilder.Entity<User>().HasData(new User
             {
                 Id = 1,
@@ -55,4 +54,5 @@ namespace CodVeda_FullStack_Intern.Data
             );
         }
     }
+
 }
