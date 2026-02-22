@@ -1,4 +1,5 @@
-﻿namespace CodVeda_FullStack_Intern.Models
+//User Model
+namespace CodVeda_FullStack_Intern.Models
 {
     public class User
     {
