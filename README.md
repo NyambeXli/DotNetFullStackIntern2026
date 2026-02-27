@@ -1,3 +1,12 @@
+🎯Open to New Opportunities | C# .NET Full-Stack Developer | Junior software engineer🎯
+
+How to Find me
+🎯Location: Orlando, 1804 Johannesburg | Phone: 0606123942  
+Email: lxnyambe@gmail.com   
+LinkedIn: https://www.linkedin.com/in/lindelexo-nyambe   
+Portfolio: https://www.loom.com/share/3ad43822411a4fb0a98eb6c625141ee0  
+GitHub: https://github.com/NyambeXli 🎯
+
 🚀 Project Milestone: BookFlow Full-Stack System
 > **Status:** Project milestone completed but will remain under construction for improvement of new ideas.
 
